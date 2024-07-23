@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 from googleapiclient.discovery import build
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-API_KEY="AIzaSyBBpItOOYYUZL3W7FXkMMuoe6G5gbey9kg"
+API_KEY=""        //youtube api key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 topic = 'product videos'
 max_results = 100
